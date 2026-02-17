@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Created by Ira</title>
+    <link>https://createdbyira.com/tags/</link>
+    <description>Recent content in Tags on Created by Ira</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://createdbyira.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Books</title>
+      <link>https://createdbyira.com/tags/books/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://createdbyira.com/tags/books/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://createdbyira.com/tags/business/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://createdbyira.com/tags/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>https://createdbyira.com/tags/review/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://createdbyira.com/tags/review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Running</title>
+      <link>https://createdbyira.com/tags/running/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://createdbyira.com/tags/running/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
