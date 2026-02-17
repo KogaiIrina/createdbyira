@@ -1,0 +1,62 @@
+baseURL = 'https://createdbyira.com/'
+languageCode = 'en-us'
+title = 'Created by Ira'
+theme = 'ira'
+
+[params]
+  author = "Irina Kogai"
+  favicon = "/favicon-32x32.png"
+  description = "A personal blog about creativity, technology, and life."
+  
+  # Homepage hero section
+  hero_title = "Hi, I'm Ira 👋"
+  hero_subtitle = "I'm a creative thinker passionate about software development, photography, running, and healthy lifestyle. Welcome to my corner of the internet!"
+  
+  # Profile photo (place your photo in static/images/)
+  author_photo = "/images/profile.JPG"
+  
+  # Tags displayed on homepage
+  interests = ["Design", "Photography", "Technology", "Travel", "Writing"]
+  
+  # Social links (leave empty to hide)
+  [params.social]
+    github = ""
+    twitter = ""
+    linkedin = ""
+    email = ""
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+# Main navigation menu
+[[menus.main]]
+  name = "Home"
+  url = "/"
+  weight = 0
+
+[[menus.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 2
+
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 3
+
+[[menus.main]]
+  name = "Photos"
+  url = "/photos/"
+  weight = 4
+
+# Permalinks
+[permalinks]
+  blog = "/blog/:slug/"
+  projects = "/projects/:slug/"
+
+# Markdown rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
