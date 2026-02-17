@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://createdbyira.com/sitemap.xml
