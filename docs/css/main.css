@@ -278,6 +278,7 @@ a:hover {
   overflow: hidden;
   border: 1px solid var(--color-border);
   transition: transform var(--transition-base), box-shadow var(--transition-base);
+  position: relative;
 }
 
 .card:hover {
@@ -308,6 +309,16 @@ a:hover {
 
 .card__title a {
   color: inherit;
+}
+
+.card__title a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .card__title a:hover {
@@ -672,6 +683,8 @@ a:hover {
   border: none;
   cursor: pointer;
   transition: all var(--transition-fast);
+  position: relative;
+  z-index: 2;
 }
 
 .btn--primary {
